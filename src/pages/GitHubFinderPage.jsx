@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Card from '../components/github-finder/card';
 
 export default function GitHubFinderPage() {
-	const [username, setUsername] = useState('Moadiib');
+	const [username, setUsername] = useState('LV8or');
 	const [userData, setUserData] = useState(null);
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(null);
